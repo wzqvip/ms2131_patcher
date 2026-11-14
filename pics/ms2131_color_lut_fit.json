@@ -1,0 +1,666 @@
+{
+  "description": "Experimental host-side 3D LUT fitted from this card's 1080p60 chart capture.",
+  "lut_file": "pics/ms2131_color_correction.cube",
+  "lut_size": 33,
+  "strength": 1.0,
+  "measurement_source": "pics/ms2131_nightlight_off_measurements.json",
+  "neutral_inverse_curve_input_levels": [
+    0.0,
+    9.0,
+    39.0,
+    68.0,
+    98.0,
+    129.0,
+    158.0,
+    188.0,
+    217.0,
+    247.0,
+    255.0
+  ],
+  "neutral_inverse_curve_output_levels": [
+    0.0,
+    25.0,
+    51.0,
+    76.0,
+    102.0,
+    128.0,
+    153.0,
+    179.0,
+    204.0,
+    230.0,
+    255.0
+  ],
+  "chroma_matrix": [
+    [
+      1.0656651528632424,
+      -0.052710915286841874,
+      -0.014483542054727294
+    ],
+    [
+      0.0452253774726262,
+      0.916847833408005,
+      0.02989953850867322
+    ],
+    [
+      -0.008252434050489001,
+      -0.025557956957973027,
+      1.043260927232371
+    ]
+  ],
+  "chroma_bias": [
+    8.544080136631319,
+    -8.544141986558893,
+    4.672013765245986
+  ],
+  "color_patch_mean_channel_rmse_before": 15.88,
+  "color_patch_mean_channel_rmse_predicted_after": 3.034,
+  "patch_predictions": {
+    "bar_samples": {
+      "W": {
+        "expected_rgb": [
+          191.0,
+          191.0,
+          191.0
+        ],
+        "measured_rgb": [
+          202.0,
+          202.0,
+          202.0
+        ],
+        "predicted_corrected_rgb": [
+          191.1,
+          191.1,
+          191.1
+        ],
+        "residual_before_rgb": [
+          11.0,
+          11.0,
+          11.0
+        ],
+        "residual_after_rgb": [
+          0.1,
+          0.1,
+          0.1
+        ]
+      },
+      "Y": {
+        "expected_rgb": [
+          191.0,
+          191.0,
+          0.0
+        ],
+        "measured_rgb": [
+          197.0,
+          218.0,
+          0.0
+        ],
+        "predicted_corrected_rgb": [
+          196.8,
+          187.7,
+          0.0
+        ],
+        "residual_before_rgb": [
+          6.0,
+          27.0,
+          0.0
+        ],
+        "residual_after_rgb": [
+          5.8,
+          -3.3,
+          0.0
+        ]
+      },
+      "C": {
+        "expected_rgb": [
+          0.0,
+          191.0,
+          191.0
+        ],
+        "measured_rgb": [
+          1.0,
+          224.0,
+          197.0
+        ],
+        "predicted_corrected_rgb": [
+          0.0,
+          190.0,
+          194.0
+        ],
+        "residual_before_rgb": [
+          1.0,
+          33.0,
+          6.0
+        ],
+        "residual_after_rgb": [
+          0.0,
+          -1.0,
+          3.0
+        ]
+      },
+      "G": {
+        "expected_rgb": [
+          0.0,
+          191.0,
+          0.0
+        ],
+        "measured_rgb": [
+          0.0,
+          238.0,
+          0.0
+        ],
+        "predicted_corrected_rgb": [
+          0.0,
+          195.2,
+          0.0
+        ],
+        "residual_before_rgb": [
+          0.0,
+          47.0,
+          0.0
+        ],
+        "residual_after_rgb": [
+          0.0,
+          4.2,
+          0.0
+        ]
+      },
+      "M": {
+        "expected_rgb": [
+          191.0,
+          0.0,
+          191.0
+        ],
+        "measured_rgb": [
+          178.0,
+          0.0,
+          188.0
+        ],
+        "predicted_corrected_rgb": [
+          187.5,
+          4.5,
+          190.0
+        ],
+        "residual_before_rgb": [
+          -13.0,
+          0.0,
+          -3.0
+        ],
+        "residual_after_rgb": [
+          -3.5,
+          4.5,
+          -1.0
+        ]
+      },
+      "R": {
+        "expected_rgb": [
+          191.0,
+          0.0,
+          0.0
+        ],
+        "measured_rgb": [
+          176.0,
+          0.0,
+          0.0
+        ],
+        "predicted_corrected_rgb": [
+          188.2,
+          0.0,
+          3.3
+        ],
+        "residual_before_rgb": [
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "residual_after_rgb": [
+          -2.8,
+          0.0,
+          3.3
+        ]
+      },
+      "B": {
+        "expected_rgb": [
+          0.0,
+          0.0,
+          191.0
+        ],
+        "measured_rgb": [
+          0.0,
+          0.0,
+          185.0
+        ],
+        "predicted_corrected_rgb": [
+          6.0,
+          0.0,
+          188.7
+        ],
+        "residual_before_rgb": [
+          0.0,
+          0.0,
+          -6.0
+        ],
+        "residual_after_rgb": [
+          6.0,
+          0.0,
+          -2.3
+        ]
+      },
+      "K": {
+        "expected_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "measured_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "predicted_corrected_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "residual_before_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "residual_after_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "primary_samples": {
+      "R": {
+        "expected_rgb": [
+          191.0,
+          0.0,
+          0.0
+        ],
+        "measured_rgb": [
+          176.0,
+          0.0,
+          0.0
+        ],
+        "predicted_corrected_rgb": [
+          188.2,
+          0.0,
+          3.3
+        ],
+        "residual_before_rgb": [
+          -15.0,
+          0.0,
+          0.0
+        ],
+        "residual_after_rgb": [
+          -2.8,
+          0.0,
+          3.3
+        ]
+      },
+      "G": {
+        "expected_rgb": [
+          0.0,
+          191.0,
+          0.0
+        ],
+        "measured_rgb": [
+          0.0,
+          238.0,
+          0.0
+        ],
+        "predicted_corrected_rgb": [
+          0.0,
+          195.2,
+          0.0
+        ],
+        "residual_before_rgb": [
+          0.0,
+          47.0,
+          0.0
+        ],
+        "residual_after_rgb": [
+          0.0,
+          4.2,
+          0.0
+        ]
+      },
+      "B": {
+        "expected_rgb": [
+          0.0,
+          0.0,
+          191.0
+        ],
+        "measured_rgb": [
+          0.0,
+          0.0,
+          185.0
+        ],
+        "predicted_corrected_rgb": [
+          6.0,
+          0.0,
+          188.7
+        ],
+        "residual_before_rgb": [
+          0.0,
+          0.0,
+          -6.0
+        ],
+        "residual_after_rgb": [
+          6.0,
+          0.0,
+          -2.3
+        ]
+      },
+      "C": {
+        "expected_rgb": [
+          0.0,
+          191.0,
+          191.0
+        ],
+        "measured_rgb": [
+          1.0,
+          224.0,
+          197.0
+        ],
+        "predicted_corrected_rgb": [
+          0.0,
+          190.0,
+          194.0
+        ],
+        "residual_before_rgb": [
+          1.0,
+          33.0,
+          6.0
+        ],
+        "residual_after_rgb": [
+          0.0,
+          -1.0,
+          3.0
+        ]
+      },
+      "M": {
+        "expected_rgb": [
+          191.0,
+          0.0,
+          191.0
+        ],
+        "measured_rgb": [
+          178.0,
+          0.0,
+          188.0
+        ],
+        "predicted_corrected_rgb": [
+          187.5,
+          4.5,
+          190.0
+        ],
+        "residual_before_rgb": [
+          -13.0,
+          0.0,
+          -3.0
+        ],
+        "residual_after_rgb": [
+          -3.5,
+          4.5,
+          -1.0
+        ]
+      },
+      "Y": {
+        "expected_rgb": [
+          191.0,
+          191.0,
+          0.0
+        ],
+        "measured_rgb": [
+          197.0,
+          218.0,
+          0.0
+        ],
+        "predicted_corrected_rgb": [
+          196.8,
+          187.7,
+          0.0
+        ],
+        "residual_before_rgb": [
+          6.0,
+          27.0,
+          0.0
+        ],
+        "residual_after_rgb": [
+          5.8,
+          -3.3,
+          0.0
+        ]
+      }
+    }
+  },
+  "response_curves": {
+    "neutral_gray_expected_levels": [
+      25.0,
+      51.0,
+      76.0,
+      102.0,
+      128.0,
+      153.0,
+      179.0,
+      204.0,
+      230.0,
+      255.0
+    ],
+    "neutral_gray_measured_before_rgb": [
+      [
+        9.0,
+        9.0,
+        9.0
+      ],
+      [
+        39.0,
+        39.0,
+        39.0
+      ],
+      [
+        68.0,
+        68.0,
+        68.0
+      ],
+      [
+        98.0,
+        98.0,
+        98.0
+      ],
+      [
+        129.0,
+        129.0,
+        129.0
+      ],
+      [
+        158.0,
+        158.0,
+        158.0
+      ],
+      [
+        188.0,
+        188.0,
+        188.0
+      ],
+      [
+        217.0,
+        217.0,
+        217.0
+      ],
+      [
+        247.0,
+        247.0,
+        247.0
+      ],
+      [
+        255.0,
+        255.0,
+        255.0
+      ]
+    ],
+    "neutral_gray_predicted_after_rgb": [
+      [
+        25.0,
+        25.0,
+        25.0
+      ],
+      [
+        51.0,
+        51.0,
+        51.0
+      ],
+      [
+        76.0,
+        76.0,
+        76.0
+      ],
+      [
+        102.0,
+        102.0,
+        102.0
+      ],
+      [
+        128.0,
+        128.0,
+        128.0
+      ],
+      [
+        153.0,
+        153.0,
+        153.0
+      ],
+      [
+        179.0,
+        179.0,
+        179.0
+      ],
+      [
+        204.0,
+        204.0,
+        204.0
+      ],
+      [
+        230.0,
+        230.0,
+        230.0
+      ],
+      [
+        255.0,
+        255.0,
+        255.0
+      ]
+    ],
+    "color_patch_order": [
+      "R",
+      "Y",
+      "G",
+      "C",
+      "B",
+      "M"
+    ],
+    "color_patch_expected_rgb": [
+      [
+        191.0,
+        0.0,
+        0.0
+      ],
+      [
+        191.0,
+        191.0,
+        0.0
+      ],
+      [
+        0.0,
+        191.0,
+        0.0
+      ],
+      [
+        0.0,
+        191.0,
+        191.0
+      ],
+      [
+        0.0,
+        0.0,
+        191.0
+      ],
+      [
+        191.0,
+        0.0,
+        191.0
+      ]
+    ],
+    "color_patch_measured_before_rgb": [
+      [
+        176.0,
+        0.0,
+        0.0
+      ],
+      [
+        197.0,
+        218.0,
+        0.0
+      ],
+      [
+        0.0,
+        238.0,
+        0.0
+      ],
+      [
+        1.0,
+        224.0,
+        197.0
+      ],
+      [
+        0.0,
+        0.0,
+        185.0
+      ],
+      [
+        178.0,
+        0.0,
+        188.0
+      ]
+    ],
+    "color_patch_predicted_after_rgb": [
+      [
+        188.215,
+        0.0,
+        3.281
+      ],
+      [
+        196.768,
+        187.734,
+        0.0
+      ],
+      [
+        0.0,
+        195.179,
+        0.0
+      ],
+      [
+        0.0,
+        190.033,
+        194.021
+      ],
+      [
+        5.989,
+        0.0,
+        188.703
+      ],
+      [
+        187.47,
+        4.511,
+        190.01
+      ]
+    ]
+  },
+  "preview": "pics/ms2131_colorbars_lut_preview.png",
+  "curves_figure": "pics/ms2131_color_lut_curves.png",
+  "limitations": "The fit uses a small set of 8-bit patches measured through the complete GPU/HDMI/MS2131/UVC/RGB path. It is an approximate host-side correction, not a firmware fix or a calibrated 3D color characterization. Re-measure if GPU range, capture format, driver, or software color pipeline changes."
+}

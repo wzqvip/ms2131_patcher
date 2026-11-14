@@ -58,6 +58,22 @@ py MS2131_\process_measurements.py
 - `../ZMT02_MS2131_VER1.0_25082718_2541_SPI5E3213_ZB25WD40_deblur_candidate.bin`：去锐化实验候选固件。
 - `../MS2131_datasheet.pdf`：本地数据手册；该文件已加入 Git 忽略规则，不会被 Git 跟踪。
 
+### 色彩校正 LUT（实验性）
+
+色条显示绿色响应偏高，红、蓝也有较小偏差。脚本 `generate_color_lut.py` 根据本次灰阶和主/次色块测量生成主机端 3D LUT：`pics/ms2131_color_correction.cube`。左右对比预览为 `pics/ms2131_colorbars_lut_preview.png`，**应用前后的响应曲线**为 `pics/ms2131_color_lut_curves.png`，拟合数据与误差记录为 `pics/ms2131_color_lut_fit.json`。
+
+![LUT 前后的灰阶与彩色色块响应曲线](pics/ms2131_color_lut_curves.png)
+
+运行：
+
+```powershell
+py generate_color_lut.py
+```
+
+LUT 先反转实测灰阶曲线，再用色块拟合一个小型颜色矩阵，并在中性色轴上逐渐减弱色度校正。可在 OBS 的 [Apply LUT 视频滤镜](https://obsproject.com/kb/apply-lut-filter) 中加载 `.cube` 文件。此校正作用于电脑上的采集画面，不会修改或刷入采集卡固件。
+
+当前 LUT 是初步拟合：训练样本有限，且测量包含显卡 HDMI 输出、MS2131、UVC 和 RGB 转换。报告中的校正后误差是对训练色块的模型预测，不是独立复测。使用前请先在 OBS 对照色条预览；显卡范围、采集格式或软件色彩链路变化后应重新测量和生成。
+
 ## English
 
 This directory documents firmware and image-measurement work on an MS2131 capture card. The MS2131 is related to the MS2130 family, but this project targets an MS2131 board with HDMI loop-out. Do not flash MS2130 firmware onto it.
@@ -115,3 +131,19 @@ The script measures slanted-edge 10–90% width, edge overshoot/undershoot, and 
 - `../ZMT02_MS2131_VER1.0_25082718_2541_SPI5E3213_ZB25WD40_stock.bin`: stock firmware backup from the current board.
 - `../ZMT02_MS2131_VER1.0_25082718_2541_SPI5E3213_ZB25WD40_deblur_candidate.bin`: experimental de-sharpening firmware candidate.
 - `../MS2131_datasheet.pdf`: local datasheet. It is excluded from Git by the ignore rule.
+
+### Experimental color-correction LUT
+
+The color bars show an elevated green response with smaller red and blue deviations. `generate_color_lut.py` uses the measured grayscale ramp and primary/secondary patches to generate a host-side 3D LUT at `pics/ms2131_color_correction.cube`. The side-by-side preview is `pics/ms2131_colorbars_lut_preview.png`; **the before/after response curves** are in `pics/ms2131_color_lut_curves.png`; the fit and error report is `pics/ms2131_color_lut_fit.json`.
+
+![Grayscale and color-patch response curves before and after the LUT](pics/ms2131_color_lut_curves.png)
+
+Run:
+
+```powershell
+py generate_color_lut.py
+```
+
+The LUT first inverts the measured grayscale response, then applies a small color matrix fitted to the color patches, with chroma correction tapered toward the neutral axis. Load the `.cube` file with OBS's [Apply LUT video filter](https://obsproject.com/kb/apply-lut-filter). This corrects the captured image on the computer; it does not modify or flash the capture-card firmware.
+
+This is a preliminary fit from a limited set of patches. Measurements include the GPU HDMI output, MS2131, UVC, and RGB conversion. The reported post-correction error is a model prediction on the training patches, not an independent recapture. Check it against a color chart in OBS before use; changes to GPU range, capture format, or software color pipeline require new measurements and a new LUT.
