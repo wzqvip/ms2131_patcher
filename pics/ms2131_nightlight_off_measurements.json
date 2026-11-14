@@ -1,0 +1,455 @@
+{
+  "captured_at_local": "reprocessed from saved capture files",
+  "user_confirmed_state": "Windows Night Light disabled for current test-firmware captures",
+  "capture_mode": "DISPLAY3 1920x1080; USB3 Video DirectShow YUY2 60fps",
+  "color_samples_nightlight_off": {
+    "bar_samples": {
+      "W": {
+        "expected_rgb": [
+          191,
+          191,
+          191
+        ],
+        "captured_rgb": [
+          202.0,
+          202.0,
+          202.0
+        ],
+        "delta_rgb": [
+          11.0,
+          11.0,
+          11.0
+        ]
+      },
+      "Y": {
+        "expected_rgb": [
+          191,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          197.0,
+          218.0,
+          0.0
+        ],
+        "delta_rgb": [
+          6.0,
+          27.0,
+          0.0
+        ]
+      },
+      "C": {
+        "expected_rgb": [
+          0,
+          191,
+          191
+        ],
+        "captured_rgb": [
+          1.0,
+          224.0,
+          197.0
+        ],
+        "delta_rgb": [
+          1.0,
+          33.0,
+          6.0
+        ]
+      },
+      "G": {
+        "expected_rgb": [
+          0,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          0.0,
+          238.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          47.0,
+          0.0
+        ]
+      },
+      "M": {
+        "expected_rgb": [
+          191,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          178.0,
+          0.0,
+          188.0
+        ],
+        "delta_rgb": [
+          -13.0,
+          0.0,
+          -3.0
+        ]
+      },
+      "R": {
+        "expected_rgb": [
+          191,
+          0,
+          0
+        ],
+        "captured_rgb": [
+          176.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          -15.0,
+          0.0,
+          0.0
+        ]
+      },
+      "B": {
+        "expected_rgb": [
+          0,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          0.0,
+          0.0,
+          185.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          -6.0
+        ]
+      },
+      "K": {
+        "expected_rgb": [
+          0,
+          0,
+          0
+        ],
+        "captured_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "neutral_samples": {
+      "10%": {
+        "expected_rgb": [
+          25,
+          25,
+          25
+        ],
+        "captured_rgb": [
+          9.0,
+          9.0,
+          9.0
+        ],
+        "delta_rgb": [
+          -16.0,
+          -16.0,
+          -16.0
+        ]
+      },
+      "20%": {
+        "expected_rgb": [
+          51,
+          51,
+          51
+        ],
+        "captured_rgb": [
+          39.0,
+          39.0,
+          39.0
+        ],
+        "delta_rgb": [
+          -12.0,
+          -12.0,
+          -12.0
+        ]
+      },
+      "30%": {
+        "expected_rgb": [
+          76,
+          76,
+          76
+        ],
+        "captured_rgb": [
+          68.0,
+          68.0,
+          68.0
+        ],
+        "delta_rgb": [
+          -8.0,
+          -8.0,
+          -8.0
+        ]
+      },
+      "40%": {
+        "expected_rgb": [
+          102,
+          102,
+          102
+        ],
+        "captured_rgb": [
+          98.0,
+          98.0,
+          98.0
+        ],
+        "delta_rgb": [
+          -4.0,
+          -4.0,
+          -4.0
+        ]
+      },
+      "50%": {
+        "expected_rgb": [
+          128,
+          128,
+          128
+        ],
+        "captured_rgb": [
+          129.0,
+          129.0,
+          129.0
+        ],
+        "delta_rgb": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "60%": {
+        "expected_rgb": [
+          153,
+          153,
+          153
+        ],
+        "captured_rgb": [
+          158.0,
+          158.0,
+          158.0
+        ],
+        "delta_rgb": [
+          5.0,
+          5.0,
+          5.0
+        ]
+      },
+      "70%": {
+        "expected_rgb": [
+          179,
+          179,
+          179
+        ],
+        "captured_rgb": [
+          188.0,
+          188.0,
+          188.0
+        ],
+        "delta_rgb": [
+          9.0,
+          9.0,
+          9.0
+        ]
+      },
+      "80%": {
+        "expected_rgb": [
+          204,
+          204,
+          204
+        ],
+        "captured_rgb": [
+          217.0,
+          217.0,
+          217.0
+        ],
+        "delta_rgb": [
+          13.0,
+          13.0,
+          13.0
+        ]
+      },
+      "90%": {
+        "expected_rgb": [
+          230,
+          230,
+          230
+        ],
+        "captured_rgb": [
+          247.0,
+          247.0,
+          247.0
+        ],
+        "delta_rgb": [
+          17.0,
+          17.0,
+          17.0
+        ]
+      },
+      "100%": {
+        "expected_rgb": [
+          255,
+          255,
+          255
+        ],
+        "captured_rgb": [
+          255.0,
+          255.0,
+          255.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "primary_samples": {
+      "R": {
+        "expected_rgb": [
+          191,
+          0,
+          0
+        ],
+        "captured_rgb": [
+          176.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          -15.0,
+          0.0,
+          0.0
+        ]
+      },
+      "G": {
+        "expected_rgb": [
+          0,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          0.0,
+          238.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          47.0,
+          0.0
+        ]
+      },
+      "B": {
+        "expected_rgb": [
+          0,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          0.0,
+          0.0,
+          185.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          -6.0
+        ]
+      },
+      "C": {
+        "expected_rgb": [
+          0,
+          191,
+          191
+        ],
+        "captured_rgb": [
+          1.0,
+          224.0,
+          197.0
+        ],
+        "delta_rgb": [
+          1.0,
+          33.0,
+          6.0
+        ]
+      },
+      "M": {
+        "expected_rgb": [
+          191,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          178.0,
+          0.0,
+          188.0
+        ],
+        "delta_rgb": [
+          -13.0,
+          0.0,
+          -3.0
+        ]
+      },
+      "Y": {
+        "expected_rgb": [
+          191,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          197.0,
+          218.0,
+          0.0
+        ],
+        "delta_rgb": [
+          6.0,
+          27.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "neutral_tint_median_R_minus_G_B_minus_G_nightlight_off": [
+    0.0,
+    0.0
+  ],
+  "neutral_grayscale_mean_absolute_channel_spread_nightlight_off": 0.0,
+  "sharpness": {
+    "source_chart": {
+      "white_luma": 255.0,
+      "black_luma": 0.0,
+      "esf_10_90_width_px": 1.6,
+      "overshoot_white_pct": 0.0,
+      "undershoot_black_pct": 0.0
+    },
+    "stock_firmware_nightlight_on": {
+      "white_luma": 226.243,
+      "black_luma": 0.0,
+      "esf_10_90_width_px": 2.265,
+      "overshoot_white_pct": 0.431,
+      "undershoot_black_pct": 0.0
+    },
+    "test_firmware_nightlight_off": {
+      "white_luma": 255.0,
+      "black_luma": 0.0,
+      "esf_10_90_width_px": 2.674,
+      "overshoot_white_pct": 0.0,
+      "undershoot_black_pct": 0.0
+    }
+  },
+  "artifacts": {
+    "color_capture": "pics/ms2131_colorbars_capture_nightlight_off.png",
+    "sharpness_capture": "pics/ms2131_sharpness_chart_nightlight_off.png",
+    "stock_sharpness_capture": "pics/nightlight_on_archive/ms2131_sharpness_chart_before.png"
+  },
+  "limitations": "Color values measure the complete GPU HDMI output, capture card, UVC and RGB conversion path; they do not isolate MS2131 processing. Stock edge capture was made with Night Light enabled; normalized edge width is less sensitive to this tone shift."
+}

@@ -1,0 +1,301 @@
+{
+  "image": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\ms2131_colorbars_1080p.png",
+  "size": [
+    1920,
+    1080
+  ],
+  "bar_samples": [
+    {
+      "name": "W",
+      "expected_rgb": [
+        191,
+        191,
+        191
+      ],
+      "sample_xy": [
+        190,
+        340
+      ]
+    },
+    {
+      "name": "Y",
+      "expected_rgb": [
+        191,
+        191,
+        0
+      ],
+      "sample_xy": [
+        410,
+        340
+      ]
+    },
+    {
+      "name": "C",
+      "expected_rgb": [
+        0,
+        191,
+        191
+      ],
+      "sample_xy": [
+        630,
+        340
+      ]
+    },
+    {
+      "name": "G",
+      "expected_rgb": [
+        0,
+        191,
+        0
+      ],
+      "sample_xy": [
+        850,
+        340
+      ]
+    },
+    {
+      "name": "M",
+      "expected_rgb": [
+        191,
+        0,
+        191
+      ],
+      "sample_xy": [
+        1070,
+        340
+      ]
+    },
+    {
+      "name": "R",
+      "expected_rgb": [
+        191,
+        0,
+        0
+      ],
+      "sample_xy": [
+        1290,
+        340
+      ]
+    },
+    {
+      "name": "B",
+      "expected_rgb": [
+        0,
+        0,
+        191
+      ],
+      "sample_xy": [
+        1510,
+        340
+      ]
+    },
+    {
+      "name": "K",
+      "expected_rgb": [
+        0,
+        0,
+        0
+      ],
+      "sample_xy": [
+        1730,
+        340
+      ]
+    }
+  ],
+  "neutral_samples": [
+    {
+      "name": "10%",
+      "expected_rgb": [
+        25,
+        25,
+        25
+      ],
+      "sample_xy": [
+        168,
+        780
+      ]
+    },
+    {
+      "name": "20%",
+      "expected_rgb": [
+        51,
+        51,
+        51
+      ],
+      "sample_xy": [
+        344,
+        780
+      ]
+    },
+    {
+      "name": "30%",
+      "expected_rgb": [
+        76,
+        76,
+        76
+      ],
+      "sample_xy": [
+        520,
+        780
+      ]
+    },
+    {
+      "name": "40%",
+      "expected_rgb": [
+        102,
+        102,
+        102
+      ],
+      "sample_xy": [
+        696,
+        780
+      ]
+    },
+    {
+      "name": "50%",
+      "expected_rgb": [
+        128,
+        128,
+        128
+      ],
+      "sample_xy": [
+        872,
+        780
+      ]
+    },
+    {
+      "name": "60%",
+      "expected_rgb": [
+        153,
+        153,
+        153
+      ],
+      "sample_xy": [
+        1048,
+        780
+      ]
+    },
+    {
+      "name": "70%",
+      "expected_rgb": [
+        179,
+        179,
+        179
+      ],
+      "sample_xy": [
+        1224,
+        780
+      ]
+    },
+    {
+      "name": "80%",
+      "expected_rgb": [
+        204,
+        204,
+        204
+      ],
+      "sample_xy": [
+        1400,
+        780
+      ]
+    },
+    {
+      "name": "90%",
+      "expected_rgb": [
+        230,
+        230,
+        230
+      ],
+      "sample_xy": [
+        1576,
+        780
+      ]
+    },
+    {
+      "name": "100%",
+      "expected_rgb": [
+        255,
+        255,
+        255
+      ],
+      "sample_xy": [
+        1752,
+        780
+      ]
+    }
+  ],
+  "primary_samples": [
+    {
+      "name": "R",
+      "expected_rgb": [
+        191,
+        0,
+        0
+      ],
+      "sample_xy": [
+        220,
+        1032
+      ]
+    },
+    {
+      "name": "G",
+      "expected_rgb": [
+        0,
+        191,
+        0
+      ],
+      "sample_xy": [
+        500,
+        1032
+      ]
+    },
+    {
+      "name": "B",
+      "expected_rgb": [
+        0,
+        0,
+        191
+      ],
+      "sample_xy": [
+        780,
+        1032
+      ]
+    },
+    {
+      "name": "C",
+      "expected_rgb": [
+        0,
+        191,
+        191
+      ],
+      "sample_xy": [
+        1060,
+        1032
+      ]
+    },
+    {
+      "name": "M",
+      "expected_rgb": [
+        191,
+        0,
+        191
+      ],
+      "sample_xy": [
+        1340,
+        1032
+      ]
+    },
+    {
+      "name": "Y",
+      "expected_rgb": [
+        191,
+        191,
+        0
+      ],
+      "sample_xy": [
+        1620,
+        1032
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "captured_at_local": "2026-11-13T23:57:31-05:00",
+  "device": "MS2131 / USB3 Video",
+  "capture_mode": "1920x1080 YUY2 60 fps (DirectShow)",
+  "image": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\ms2131_before_1080p60.png",
+  "image_sha256": "6929ee51fb85b81da51b79ed64a480f3d20caebfb45444b84aae26de5f4f8304",
+  "purpose": "Pre-patch visual baseline; natural desktop content, not a calibrated test chart.",
+  "metrics_note": "Spatial edge-energy indicators only; not MTF50 or a calibrated sharpening/halo measurement. Use the supplied slanted-edge chart for controlled measurements.",
+  "regions": {
+    "full_frame": {
+      "luma_min": 0,
+      "luma_max": 237,
+      "luma_mean": 29.2857,
+      "laplacian_variance": 609.3719,
+      "tenengrad_mean": 1816.7384,
+      "gradient_magnitude_p50": 4.0,
+      "gradient_magnitude_p90": 27.4591,
+      "gradient_pixels_over_32_pct": 9.103
+    },
+    "center_wallpaper_roi": {
+      "luma_min": 0,
+      "luma_max": 189,
+      "luma_mean": 37.3035,
+      "laplacian_variance": 572.0967,
+      "tenengrad_mean": 2128.7097,
+      "gradient_magnitude_p50": 4.4721,
+      "gradient_magnitude_p90": 39.6232,
+      "gradient_pixels_over_32_pct": 11.5139
+    }
+  }
+}

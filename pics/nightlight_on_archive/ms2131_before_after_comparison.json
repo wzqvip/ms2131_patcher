@@ -1,0 +1,1122 @@
+{
+  "captured_at_local": "2026-11-14T00:27:07-05:00",
+  "capture_mode": "DISPLAY3 1920x1080; USB3 Video DirectShow YUY2 60fps",
+  "sharpness": {
+    "before": {
+      "white_luma": 226.109,
+      "black_luma": 0.0,
+      "esf_10_90_width_px": 2.263,
+      "overshoot_white_pct": 0.449,
+      "undershoot_black_pct": 0
+    },
+    "after": {
+      "white_luma": 226.087,
+      "black_luma": 0.0,
+      "esf_10_90_width_px": 2.789,
+      "overshoot_white_pct": 0.01,
+      "undershoot_black_pct": 0
+    },
+    "delta": {
+      "esf_10_90_width_px": 0.526,
+      "overshoot_white_pct": -0.439,
+      "undershoot_black_pct": 0
+    },
+    "relative_width_change_pct": 23.24
+  },
+  "color_bars": {
+    "before": [
+      {
+        "name": "W",
+        "expected_rgb": [
+          191,
+          191,
+          191
+        ],
+        "captured_rgb": [
+          190.0,
+          164.0,
+          124.0
+        ],
+        "delta_rgb": [
+          -1.0,
+          -27.0,
+          -67.0
+        ]
+      },
+      {
+        "name": "Y",
+        "expected_rgb": [
+          191,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          190.0,
+          171.0,
+          0.0
+        ],
+        "delta_rgb": [
+          -1.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "name": "C",
+        "expected_rgb": [
+          0,
+          191,
+          191
+        ],
+        "captured_rgb": [
+          0.0,
+          182.0,
+          119.0
+        ],
+        "delta_rgb": [
+          0.0,
+          -9.0,
+          -72.0
+        ]
+      },
+      {
+        "name": "G",
+        "expected_rgb": [
+          0,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          0.0,
+          192.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "name": "M",
+        "expected_rgb": [
+          191,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          174.0,
+          0.0,
+          110.0
+        ],
+        "delta_rgb": [
+          -17.0,
+          0.0,
+          -81.0
+        ]
+      },
+      {
+        "name": "R",
+        "expected_rgb": [
+          191,
+          0,
+          0
+        ],
+        "captured_rgb": [
+          174.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          -17.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "B",
+        "expected_rgb": [
+          0,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          0.0,
+          0.0,
+          110.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          -81.0
+        ]
+      },
+      {
+        "name": "K",
+        "expected_rgb": [
+          0,
+          0,
+          0
+        ],
+        "captured_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "after": [
+      {
+        "name": "W",
+        "expected_rgb": [
+          191,
+          191,
+          191
+        ],
+        "captured_rgb": [
+          190.0,
+          164.0,
+          124.0
+        ],
+        "delta_rgb": [
+          -1.0,
+          -27.0,
+          -67.0
+        ]
+      },
+      {
+        "name": "Y",
+        "expected_rgb": [
+          191,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          190.0,
+          171.0,
+          0.0
+        ],
+        "delta_rgb": [
+          -1.0,
+          -20.0,
+          0.0
+        ]
+      },
+      {
+        "name": "C",
+        "expected_rgb": [
+          0,
+          191,
+          191
+        ],
+        "captured_rgb": [
+          0.0,
+          182.0,
+          119.0
+        ],
+        "delta_rgb": [
+          0.0,
+          -9.0,
+          -72.0
+        ]
+      },
+      {
+        "name": "G",
+        "expected_rgb": [
+          0,
+          191,
+          0
+        ],
+        "captured_rgb": [
+          0.0,
+          192.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "name": "M",
+        "expected_rgb": [
+          191,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          174.0,
+          0.0,
+          110.0
+        ],
+        "delta_rgb": [
+          -17.0,
+          0.0,
+          -81.0
+        ]
+      },
+      {
+        "name": "R",
+        "expected_rgb": [
+          191,
+          0,
+          0
+        ],
+        "captured_rgb": [
+          174.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          -17.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "B",
+        "expected_rgb": [
+          0,
+          0,
+          191
+        ],
+        "captured_rgb": [
+          0.0,
+          0.0,
+          110.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          -81.0
+        ]
+      },
+      {
+        "name": "K",
+        "expected_rgb": [
+          0,
+          0,
+          0
+        ],
+        "captured_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "delta_captured_rgb": [
+      {
+        "name": "W",
+        "before": [
+          190.0,
+          164.0,
+          124.0
+        ],
+        "after": [
+          190.0,
+          164.0,
+          124.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "Y",
+        "before": [
+          190.0,
+          171.0,
+          0.0
+        ],
+        "after": [
+          190.0,
+          171.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "C",
+        "before": [
+          0.0,
+          182.0,
+          119.0
+        ],
+        "after": [
+          0.0,
+          182.0,
+          119.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "G",
+        "before": [
+          0.0,
+          192.0,
+          0.0
+        ],
+        "after": [
+          0.0,
+          192.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "M",
+        "before": [
+          174.0,
+          0.0,
+          110.0
+        ],
+        "after": [
+          174.0,
+          0.0,
+          110.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "R",
+        "before": [
+          174.0,
+          0.0,
+          0.0
+        ],
+        "after": [
+          174.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "B",
+        "before": [
+          0.0,
+          0.0,
+          110.0
+        ],
+        "after": [
+          0.0,
+          0.0,
+          110.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "K",
+        "before": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "after": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "neutral_grays": {
+    "before": [
+      {
+        "level": "10%",
+        "expected_rgb": [
+          25,
+          25,
+          25
+        ],
+        "captured_rgb": [
+          3.0,
+          4.0,
+          0.0
+        ],
+        "R_minus_G": -1.0,
+        "B_minus_G": -4.0
+      },
+      {
+        "level": "20%",
+        "expected_rgb": [
+          51,
+          51,
+          51
+        ],
+        "captured_rgb": [
+          33.0,
+          31.0,
+          18.0
+        ],
+        "R_minus_G": 2.0,
+        "B_minus_G": -13.0
+      },
+      {
+        "level": "30%",
+        "expected_rgb": [
+          76,
+          76,
+          76
+        ],
+        "captured_rgb": [
+          61.0,
+          53.0,
+          37.0
+        ],
+        "R_minus_G": 8.0,
+        "B_minus_G": -16.0
+      },
+      {
+        "level": "40%",
+        "expected_rgb": [
+          102,
+          102,
+          102
+        ],
+        "captured_rgb": [
+          90.0,
+          77.0,
+          56.0
+        ],
+        "R_minus_G": 13.0,
+        "B_minus_G": -21.0
+      },
+      {
+        "level": "50%",
+        "expected_rgb": [
+          128,
+          128,
+          128
+        ],
+        "captured_rgb": [
+          118.0,
+          103.0,
+          76.0
+        ],
+        "R_minus_G": 15.0,
+        "B_minus_G": -27.0
+      },
+      {
+        "level": "60%",
+        "expected_rgb": [
+          153,
+          153,
+          153
+        ],
+        "captured_rgb": [
+          146.0,
+          126.0,
+          95.0
+        ],
+        "R_minus_G": 20.0,
+        "B_minus_G": -31.0
+      },
+      {
+        "level": "70%",
+        "expected_rgb": [
+          179,
+          179,
+          179
+        ],
+        "captured_rgb": [
+          176.0,
+          151.0,
+          115.0
+        ],
+        "R_minus_G": 25.0,
+        "B_minus_G": -36.0
+      },
+      {
+        "level": "80%",
+        "expected_rgb": [
+          204,
+          204,
+          204
+        ],
+        "captured_rgb": [
+          204.0,
+          175.0,
+          134.0
+        ],
+        "R_minus_G": 29.0,
+        "B_minus_G": -41.0
+      },
+      {
+        "level": "90%",
+        "expected_rgb": [
+          230,
+          230,
+          230
+        ],
+        "captured_rgb": [
+          235.0,
+          200.0,
+          154.0
+        ],
+        "R_minus_G": 35.0,
+        "B_minus_G": -46.0
+      },
+      {
+        "level": "100%",
+        "expected_rgb": [
+          255,
+          255,
+          255
+        ],
+        "captured_rgb": [
+          255.0,
+          222.0,
+          172.0
+        ],
+        "R_minus_G": 33.0,
+        "B_minus_G": -50.0
+      }
+    ],
+    "after": [
+      {
+        "level": "10%",
+        "expected_rgb": [
+          25,
+          25,
+          25
+        ],
+        "captured_rgb": [
+          3.0,
+          4.0,
+          0.0
+        ],
+        "R_minus_G": -1.0,
+        "B_minus_G": -4.0
+      },
+      {
+        "level": "20%",
+        "expected_rgb": [
+          51,
+          51,
+          51
+        ],
+        "captured_rgb": [
+          32.0,
+          30.0,
+          18.0
+        ],
+        "R_minus_G": 2.0,
+        "B_minus_G": -12.0
+      },
+      {
+        "level": "30%",
+        "expected_rgb": [
+          76,
+          76,
+          76
+        ],
+        "captured_rgb": [
+          61.0,
+          53.0,
+          37.0
+        ],
+        "R_minus_G": 8.0,
+        "B_minus_G": -16.0
+      },
+      {
+        "level": "40%",
+        "expected_rgb": [
+          102,
+          102,
+          102
+        ],
+        "captured_rgb": [
+          90.0,
+          77.0,
+          56.0
+        ],
+        "R_minus_G": 13.0,
+        "B_minus_G": -21.0
+      },
+      {
+        "level": "50%",
+        "expected_rgb": [
+          128,
+          128,
+          128
+        ],
+        "captured_rgb": [
+          118.0,
+          103.0,
+          76.0
+        ],
+        "R_minus_G": 15.0,
+        "B_minus_G": -27.0
+      },
+      {
+        "level": "60%",
+        "expected_rgb": [
+          153,
+          153,
+          153
+        ],
+        "captured_rgb": [
+          146.0,
+          126.0,
+          95.0
+        ],
+        "R_minus_G": 20.0,
+        "B_minus_G": -31.0
+      },
+      {
+        "level": "70%",
+        "expected_rgb": [
+          179,
+          179,
+          179
+        ],
+        "captured_rgb": [
+          176.0,
+          151.0,
+          115.0
+        ],
+        "R_minus_G": 25.0,
+        "B_minus_G": -36.0
+      },
+      {
+        "level": "80%",
+        "expected_rgb": [
+          204,
+          204,
+          204
+        ],
+        "captured_rgb": [
+          204.0,
+          174.0,
+          134.0
+        ],
+        "R_minus_G": 30.0,
+        "B_minus_G": -40.0
+      },
+      {
+        "level": "90%",
+        "expected_rgb": [
+          230,
+          230,
+          230
+        ],
+        "captured_rgb": [
+          235.0,
+          198.0,
+          154.0
+        ],
+        "R_minus_G": 37.0,
+        "B_minus_G": -44.0
+      },
+      {
+        "level": "100%",
+        "expected_rgb": [
+          255,
+          255,
+          255
+        ],
+        "captured_rgb": [
+          255.0,
+          222.0,
+          172.0
+        ],
+        "R_minus_G": 33.0,
+        "B_minus_G": -50.0
+      }
+    ],
+    "delta_captured_rgb": [
+      {
+        "level": "10%",
+        "before": [
+          3.0,
+          4.0,
+          0.0
+        ],
+        "after": [
+          3.0,
+          4.0,
+          0.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "level": "20%",
+        "before": [
+          33.0,
+          31.0,
+          18.0
+        ],
+        "after": [
+          32.0,
+          30.0,
+          18.0
+        ],
+        "delta_rgb": [
+          -1.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "level": "30%",
+        "before": [
+          61.0,
+          53.0,
+          37.0
+        ],
+        "after": [
+          61.0,
+          53.0,
+          37.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "level": "40%",
+        "before": [
+          90.0,
+          77.0,
+          56.0
+        ],
+        "after": [
+          90.0,
+          77.0,
+          56.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "level": "50%",
+        "before": [
+          118.0,
+          103.0,
+          76.0
+        ],
+        "after": [
+          118.0,
+          103.0,
+          76.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "level": "60%",
+        "before": [
+          146.0,
+          126.0,
+          95.0
+        ],
+        "after": [
+          146.0,
+          126.0,
+          95.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "level": "70%",
+        "before": [
+          176.0,
+          151.0,
+          115.0
+        ],
+        "after": [
+          176.0,
+          151.0,
+          115.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "level": "80%",
+        "before": [
+          204.0,
+          175.0,
+          134.0
+        ],
+        "after": [
+          204.0,
+          174.0,
+          134.0
+        ],
+        "delta_rgb": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      {
+        "level": "90%",
+        "before": [
+          235.0,
+          200.0,
+          154.0
+        ],
+        "after": [
+          235.0,
+          198.0,
+          154.0
+        ],
+        "delta_rgb": [
+          0.0,
+          -2.0,
+          0.0
+        ]
+      },
+      {
+        "level": "100%",
+        "before": [
+          255.0,
+          222.0,
+          172.0
+        ],
+        "after": [
+          255.0,
+          222.0,
+          172.0
+        ],
+        "delta_rgb": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "raw_yuyv_after": {
+    "gray_Y_U_V": {
+      "10%": [
+        20.0,
+        125.0,
+        128.0
+      ],
+      "20%": [
+        42.0,
+        122.0,
+        130.0
+      ],
+      "30%": [
+        63.0,
+        120.0,
+        133.0
+      ],
+      "40%": [
+        85.0,
+        117.0,
+        135.0
+      ],
+      "50%": [
+        107.0,
+        114.0,
+        137.0
+      ],
+      "60%": [
+        128.0,
+        111.0,
+        139.0
+      ],
+      "70%": [
+        150.0,
+        108.0,
+        142.0
+      ],
+      "80%": [
+        171.0,
+        106.0,
+        144.0
+      ],
+      "90%": [
+        193.0,
+        103.0,
+        147.0
+      ],
+      "100%": [
+        213.0,
+        100.0,
+        150.0
+      ]
+    },
+    "bars_Y_U_V": {
+      "W": [
+        160.0,
+        107.0,
+        143.0
+      ],
+      "Y": [
+        151.0,
+        46.0,
+        150.0
+      ],
+      "C": [
+        120.0,
+        128.0,
+        51.0
+      ],
+      "G": [
+        111.0,
+        67.0,
+        57.0
+      ],
+      "M": [
+        48.0,
+        165.0,
+        215.0
+      ],
+      "R": [
+        40.0,
+        106.0,
+        221.0
+      ],
+      "B": [
+        8.0,
+        188.0,
+        122.0
+      ],
+      "K": [
+        0.0,
+        128.0,
+        128.0
+      ]
+    },
+    "layout": "YUYV byte order Y0,U,Y1,V"
+  },
+  "artifacts": {
+    "sharpness_before": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_sharpness_chart_before.png",
+    "sharpness_after": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_sharpness_chart_after.png",
+    "color_before": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_colorbars_capture_before.png",
+    "color_after": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_colorbars_capture_after.png"
+  },
+  "notes": [
+    "Paired measurements use identical generated charts and sample coordinates.",
+    "Color values cover the complete GPU HDMI output, capture device, UVC and conversion path; they do not isolate the MS2131.",
+    "The device reported the same 1920x1080 YUY2 60fps capture mode."
+  ],
+  "raw_yuyv_delta_after_minus_before": {
+    "10%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "20%": [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    "30%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "40%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "50%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "60%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "70%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "80%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "90%": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "100%": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "capture_sha256": {
+    "sharpness_before": "d3d88ebe603b7e9ffb066e627b6e3fcc2cf5d4bb209a45af3d8240160df96a8a",
+    "sharpness_after": "8739acd01d79985dd7d4ae42a1021c6bdcdead2d57b0fabaeb0b2ff35c4cfd4c",
+    "color_before": "6c44fadb996cf1eaa1a90ee951a52bebe53ffc5e50dae0dc51185ecdac491054",
+    "color_after": "06906092e4db2d7df616ffd1d668d516d11839630e31a321b0f1b0a6d5ca5056"
+  },
+  "windows_night_light_enabled": true,
+  "color_interpretation": "User confirmed Windows Night Light was enabled for both captures. The unchanged warm color values before and after firmware are explained by Night Light in the display output path; they are not evidence of an MS2131 firmware color cast."
+}

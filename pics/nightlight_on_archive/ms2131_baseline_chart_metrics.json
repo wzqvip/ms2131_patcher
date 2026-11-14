@@ -1,0 +1,750 @@
+{
+  "captured_at_local": "2026-11-14T00:09:34-05:00",
+  "sharpness_image": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_sharpness_chart_before.png",
+  "sharpness_sha256": "d3d88ebe603b7e9ffb066e627b6e3fcc2cf5d4bb209a45af3d8240160df96a8a",
+  "sharpness_metrics": {
+    "capture": "1920x1080 YUY2 60 fps; full-screen 1920x1080 chart on DISPLAY3",
+    "reference_white_luma": 226.109,
+    "reference_black_luma": 0.0,
+    "transition_width_10_to_90_px": 2.263,
+    "overshoot": {
+      "white_side_pct": 0.449,
+      "black_side_pct": 0.0,
+      "profile_min": 0.0,
+      "profile_max": 227.124
+    },
+    "scope": "Single spatial edge measurement after RGB PNG conversion; includes GPU output, HDMI path, MS2131 processing, UVC and FFmpeg conversion."
+  },
+  "colorbars_image": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_colorbars_capture_before.png",
+  "colorbars_sha256": "6c44fadb996cf1eaa1a90ee951a52bebe53ffc5e50dae0dc51185ecdac491054",
+  "color_sample_rgb": [
+    {
+      "patch": "W",
+      "expected_rgb": [
+        191,
+        191,
+        191
+      ],
+      "captured_median_rgb": [
+        190.0,
+        164.0,
+        124.0
+      ],
+      "captured_minus_expected_rgb": [
+        -1.0,
+        -27.0,
+        -67.0
+      ]
+    },
+    {
+      "patch": "Y",
+      "expected_rgb": [
+        191,
+        191,
+        0
+      ],
+      "captured_median_rgb": [
+        190.0,
+        171.0,
+        0.0
+      ],
+      "captured_minus_expected_rgb": [
+        -1.0,
+        -20.0,
+        0.0
+      ]
+    },
+    {
+      "patch": "C",
+      "expected_rgb": [
+        0,
+        191,
+        191
+      ],
+      "captured_median_rgb": [
+        0.0,
+        182.0,
+        119.0
+      ],
+      "captured_minus_expected_rgb": [
+        0.0,
+        -9.0,
+        -72.0
+      ]
+    },
+    {
+      "patch": "G",
+      "expected_rgb": [
+        0,
+        191,
+        0
+      ],
+      "captured_median_rgb": [
+        0.0,
+        192.0,
+        0.0
+      ],
+      "captured_minus_expected_rgb": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "patch": "M",
+      "expected_rgb": [
+        191,
+        0,
+        191
+      ],
+      "captured_median_rgb": [
+        174.0,
+        0.0,
+        110.0
+      ],
+      "captured_minus_expected_rgb": [
+        -17.0,
+        0.0,
+        -81.0
+      ]
+    },
+    {
+      "patch": "R",
+      "expected_rgb": [
+        191,
+        0,
+        0
+      ],
+      "captured_median_rgb": [
+        174.0,
+        0.0,
+        0.0
+      ],
+      "captured_minus_expected_rgb": [
+        -17.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "patch": "B",
+      "expected_rgb": [
+        0,
+        0,
+        191
+      ],
+      "captured_median_rgb": [
+        0.0,
+        0.0,
+        110.0
+      ],
+      "captured_minus_expected_rgb": [
+        0.0,
+        0.0,
+        -81.0
+      ]
+    },
+    {
+      "patch": "K",
+      "expected_rgb": [
+        0,
+        0,
+        0
+      ],
+      "captured_median_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "captured_minus_expected_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "neutral_patch_samples": [
+    {
+      "level": "10%",
+      "expected_rgb": [
+        25,
+        25,
+        25
+      ],
+      "captured_median_rgb": [
+        3.0,
+        4.0,
+        0.0
+      ],
+      "R_minus_G": -1.0,
+      "B_minus_G": -4.0
+    },
+    {
+      "level": "20%",
+      "expected_rgb": [
+        51,
+        51,
+        51
+      ],
+      "captured_median_rgb": [
+        33.0,
+        31.0,
+        18.0
+      ],
+      "R_minus_G": 2.0,
+      "B_minus_G": -13.0
+    },
+    {
+      "level": "30%",
+      "expected_rgb": [
+        76,
+        76,
+        76
+      ],
+      "captured_median_rgb": [
+        61.0,
+        53.0,
+        37.0
+      ],
+      "R_minus_G": 8.0,
+      "B_minus_G": -16.0
+    },
+    {
+      "level": "40%",
+      "expected_rgb": [
+        102,
+        102,
+        102
+      ],
+      "captured_median_rgb": [
+        90.0,
+        77.0,
+        56.0
+      ],
+      "R_minus_G": 13.0,
+      "B_minus_G": -21.0
+    },
+    {
+      "level": "50%",
+      "expected_rgb": [
+        128,
+        128,
+        128
+      ],
+      "captured_median_rgb": [
+        118.0,
+        103.0,
+        76.0
+      ],
+      "R_minus_G": 15.0,
+      "B_minus_G": -27.0
+    },
+    {
+      "level": "60%",
+      "expected_rgb": [
+        153,
+        153,
+        153
+      ],
+      "captured_median_rgb": [
+        146.0,
+        126.0,
+        95.0
+      ],
+      "R_minus_G": 20.0,
+      "B_minus_G": -31.0
+    },
+    {
+      "level": "70%",
+      "expected_rgb": [
+        179,
+        179,
+        179
+      ],
+      "captured_median_rgb": [
+        176.0,
+        151.0,
+        115.0
+      ],
+      "R_minus_G": 25.0,
+      "B_minus_G": -36.0
+    },
+    {
+      "level": "80%",
+      "expected_rgb": [
+        204,
+        204,
+        204
+      ],
+      "captured_median_rgb": [
+        204.0,
+        175.0,
+        134.0
+      ],
+      "R_minus_G": 29.0,
+      "B_minus_G": -41.0
+    },
+    {
+      "level": "90%",
+      "expected_rgb": [
+        230,
+        230,
+        230
+      ],
+      "captured_median_rgb": [
+        235.0,
+        200.0,
+        154.0
+      ],
+      "R_minus_G": 35.0,
+      "B_minus_G": -46.0
+    },
+    {
+      "level": "100%",
+      "expected_rgb": [
+        255,
+        255,
+        255
+      ],
+      "captured_median_rgb": [
+        255.0,
+        222.0,
+        172.0
+      ],
+      "R_minus_G": 33.0,
+      "B_minus_G": -50.0
+    }
+  ],
+  "midtone_neutral_tint_median": {
+    "R_minus_G": 17.5,
+    "B_minus_G": -29.0,
+    "interpretation": "Negative B-G and positive R-G indicate warm/yellow-red cast in the captured chain."
+  },
+  "limitations": [
+    "This is a baseline of the whole HDMI-to-USB path; without an independent HDMI analyzer or second capture receiver, the MS2131 cannot be isolated conclusively from GPU scanout/color-range behavior.",
+    "Sharpness metrics are reproducible baseline values, not a standalone calibrated MTF50 reading. Compare with the same chart, display mode, YUY2 1080p60 input and pipeline after firmware change."
+  ],
+  "capture_mode": "DISPLAY3 full-screen 1920x1080; DirectShow USB3 Video, YUY2, 60 fps",
+  "sharpness_chart_source": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\ms2131_sharpness_test_1080p.png",
+  "sharpness_chart_capture": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_sharpness_chart_before.png",
+  "sharpness_chart_source_sha256": "393049f7f698606f6a8c0cedb671187c672ef5caf83be96adc8b51f8fa1f9d05",
+  "sharpness_chart_capture_sha256": "d3d88ebe603b7e9ffb066e627b6e3fcc2cf5d4bb209a45af3d8240160df96a8a",
+  "edge_comparison": {
+    "source_chart": {
+      "white_luma": 255.0,
+      "black_luma": 0.0,
+      "esf_10_90_width_px": 1.6,
+      "overshoot_white_pct": 0,
+      "undershoot_black_pct": 0
+    },
+    "captured_chain": {
+      "white_luma": 226.109,
+      "black_luma": 0.0,
+      "esf_10_90_width_px": 2.263,
+      "overshoot_white_pct": 0.449,
+      "undershoot_black_pct": 0
+    },
+    "delta_width_px": 0.663,
+    "note": "Slanted-edge ESF 10-90 width and halo overshoot from matched ROI. Captured-chain measurement includes GPU HDMI output, capture-card processing, UVC and conversion."
+  },
+  "colorbars_chart_capture": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\pics\\nightlight_on_archive\\ms2131_colorbars_capture_before.png",
+  "colorbars_chart_capture_sha256": "6c44fadb996cf1eaa1a90ee951a52bebe53ffc5e50dae0dc51185ecdac491054",
+  "colorbars_patch_samples": [
+    {
+      "name": "W",
+      "expected_rgb": [
+        191,
+        191,
+        191
+      ],
+      "captured_rgb_median": [
+        190.0,
+        164.0,
+        124.0
+      ],
+      "delta_rgb": [
+        -1.0,
+        -27.0,
+        -67.0
+      ]
+    },
+    {
+      "name": "Y",
+      "expected_rgb": [
+        191,
+        191,
+        0
+      ],
+      "captured_rgb_median": [
+        190.0,
+        171.0,
+        0.0
+      ],
+      "delta_rgb": [
+        -1.0,
+        -20.0,
+        0.0
+      ]
+    },
+    {
+      "name": "C",
+      "expected_rgb": [
+        0,
+        191,
+        191
+      ],
+      "captured_rgb_median": [
+        0.0,
+        182.0,
+        119.0
+      ],
+      "delta_rgb": [
+        0.0,
+        -9.0,
+        -72.0
+      ]
+    },
+    {
+      "name": "G",
+      "expected_rgb": [
+        0,
+        191,
+        0
+      ],
+      "captured_rgb_median": [
+        0.0,
+        192.0,
+        0.0
+      ],
+      "delta_rgb": [
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "M",
+      "expected_rgb": [
+        191,
+        0,
+        191
+      ],
+      "captured_rgb_median": [
+        174.0,
+        0.0,
+        110.0
+      ],
+      "delta_rgb": [
+        -17.0,
+        0.0,
+        -81.0
+      ]
+    },
+    {
+      "name": "R",
+      "expected_rgb": [
+        191,
+        0,
+        0
+      ],
+      "captured_rgb_median": [
+        174.0,
+        0.0,
+        0.0
+      ],
+      "delta_rgb": [
+        -17.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "B",
+      "expected_rgb": [
+        0,
+        0,
+        191
+      ],
+      "captured_rgb_median": [
+        0.0,
+        0.0,
+        110.0
+      ],
+      "delta_rgb": [
+        0.0,
+        0.0,
+        -81.0
+      ]
+    },
+    {
+      "name": "K",
+      "expected_rgb": [
+        0,
+        0,
+        0
+      ],
+      "captured_rgb_median": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "delta_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "neutral_gray_samples": [
+    {
+      "level": "10%",
+      "expected_rgb": [
+        25,
+        25,
+        25
+      ],
+      "captured_rgb_median": [
+        3.0,
+        4.0,
+        0.0
+      ],
+      "R_minus_G": -1.0,
+      "B_minus_G": -4.0
+    },
+    {
+      "level": "20%",
+      "expected_rgb": [
+        51,
+        51,
+        51
+      ],
+      "captured_rgb_median": [
+        33.0,
+        31.0,
+        18.0
+      ],
+      "R_minus_G": 2.0,
+      "B_minus_G": -13.0
+    },
+    {
+      "level": "30%",
+      "expected_rgb": [
+        76,
+        76,
+        76
+      ],
+      "captured_rgb_median": [
+        61.0,
+        53.0,
+        37.0
+      ],
+      "R_minus_G": 8.0,
+      "B_minus_G": -16.0
+    },
+    {
+      "level": "40%",
+      "expected_rgb": [
+        102,
+        102,
+        102
+      ],
+      "captured_rgb_median": [
+        90.0,
+        77.0,
+        56.0
+      ],
+      "R_minus_G": 13.0,
+      "B_minus_G": -21.0
+    },
+    {
+      "level": "50%",
+      "expected_rgb": [
+        128,
+        128,
+        128
+      ],
+      "captured_rgb_median": [
+        118.0,
+        103.0,
+        76.0
+      ],
+      "R_minus_G": 15.0,
+      "B_minus_G": -27.0
+    },
+    {
+      "level": "60%",
+      "expected_rgb": [
+        153,
+        153,
+        153
+      ],
+      "captured_rgb_median": [
+        146.0,
+        126.0,
+        95.0
+      ],
+      "R_minus_G": 20.0,
+      "B_minus_G": -31.0
+    },
+    {
+      "level": "70%",
+      "expected_rgb": [
+        179,
+        179,
+        179
+      ],
+      "captured_rgb_median": [
+        176.0,
+        151.0,
+        115.0
+      ],
+      "R_minus_G": 25.0,
+      "B_minus_G": -36.0
+    },
+    {
+      "level": "80%",
+      "expected_rgb": [
+        204,
+        204,
+        204
+      ],
+      "captured_rgb_median": [
+        204.0,
+        175.0,
+        134.0
+      ],
+      "R_minus_G": 29.0,
+      "B_minus_G": -41.0
+    },
+    {
+      "level": "90%",
+      "expected_rgb": [
+        230,
+        230,
+        230
+      ],
+      "captured_rgb_median": [
+        235.0,
+        200.0,
+        154.0
+      ],
+      "R_minus_G": 35.0,
+      "B_minus_G": -46.0
+    },
+    {
+      "level": "100%",
+      "expected_rgb": [
+        255,
+        255,
+        255
+      ],
+      "captured_rgb_median": [
+        255.0,
+        222.0,
+        172.0
+      ],
+      "R_minus_G": 33.0,
+      "B_minus_G": -50.0
+    }
+  ],
+  "raw_yuyv_medians": {
+    "neutral_gray_samples": {
+      "10%": [
+        20,
+        125,
+        128
+      ],
+      "20%": [
+        43,
+        122,
+        130
+      ],
+      "30%": [
+        63,
+        120,
+        133
+      ],
+      "40%": [
+        85,
+        117,
+        135
+      ],
+      "50%": [
+        107,
+        114,
+        137
+      ],
+      "60%": [
+        128,
+        111,
+        139
+      ],
+      "70%": [
+        150,
+        108,
+        142
+      ],
+      "80%": [
+        171,
+        106,
+        144
+      ],
+      "90%": [
+        193,
+        103,
+        147
+      ],
+      "100%": [
+        213,
+        100,
+        150
+      ]
+    },
+    "bars_75pct": {
+      "white": [
+        160,
+        107,
+        143
+      ],
+      "yellow": [
+        151,
+        46,
+        150
+      ],
+      "cyan": [
+        120,
+        128,
+        51
+      ],
+      "green": [
+        111,
+        67,
+        57
+      ],
+      "magenta": [
+        48,
+        165,
+        215
+      ],
+      "red": [
+        40,
+        106,
+        221
+      ],
+      "blue": [
+        8,
+        188,
+        122
+      ],
+      "black": [
+        0,
+        128,
+        128
+      ]
+    },
+    "layout": "YUYV byte order Y0,U,Y1,V; medians from central patch regions; raw temporary frame not retained."
+  },
+  "framebuffer_control": "Windows ImageGrab of DISPLAY3 returned exact source RGB values for all sampled color bars and neutral patches. Bias therefore appears after the software framebuffer; remaining scope is GPU scanout/HDMI plus MS2131 capture path.",
+  "windows_night_light_enabled": true,
+  "color_interpretation": "User confirmed Windows Night Light was enabled during capture. The warm shift in the UVC color-bar samples is consistent with this display output setting and must not be attributed to the MS2131 firmware alone. Windows ImageGrab returned exact chart RGB values, while the capture-card HDMI/UVC path included the warm shift."
+}
