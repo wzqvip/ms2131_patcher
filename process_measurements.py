@@ -14,7 +14,7 @@ import numpy as np
 from PIL import Image
 
 
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent
 PICS = ROOT / "pics"
 ARCHIVE = PICS / "nightlight_on_archive"
 SAMPLES_PATH = PICS / "ms2131_colorbars_1080p_samples.json"

@@ -1,0 +1,1893 @@
+{
+  "created_utc": "2026-11-14T21:54:56.073022+00:00",
+  "monitor": {
+    "device": "\\\\.\\DISPLAY3",
+    "left": 5120,
+    "top": 0,
+    "width": 1920,
+    "height": 1080,
+    "primary": false
+  },
+  "capture_device": {
+    "name": "USB3 Video",
+    "alternative_name": "@device_pnp_\\\\?\\usb#vid_345f&pid_2131&mi_00#8&1d3088&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+    "score_and_reason": [
+      100,
+      "USB VID/PID matches the attached MS2131 video interface"
+    ]
+  },
+  "capture_mode": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 60,
+    "device_pixel_format": "yuyv422",
+    "saved_pixel_format": "RGB24 decoded by FFmpeg from DirectShow"
+  },
+  "chart": {
+    "width": 1920,
+    "height": 1080,
+    "grid": [
+      8,
+      5
+    ],
+    "patches": [
+      {
+        "name": "gray_000",
+        "rgb": [
+          0,
+          0,
+          0
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.084375,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          56,
+          31,
+          268,
+          228
+        ]
+      },
+      {
+        "name": "gray_025",
+        "rgb": [
+          25,
+          25,
+          25
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.203125,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          284,
+          31,
+          496,
+          228
+        ]
+      },
+      {
+        "name": "gray_051",
+        "rgb": [
+          51,
+          51,
+          51
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.321875,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          512,
+          31,
+          724,
+          228
+        ]
+      },
+      {
+        "name": "gray_076",
+        "rgb": [
+          76,
+          76,
+          76
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.440625,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          740,
+          31,
+          952,
+          228
+        ]
+      },
+      {
+        "name": "gray_102",
+        "rgb": [
+          102,
+          102,
+          102
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.559375,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          968,
+          31,
+          1180,
+          228
+        ]
+      },
+      {
+        "name": "gray_128",
+        "rgb": [
+          128,
+          128,
+          128
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.678125,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          1196,
+          31,
+          1408,
+          228
+        ]
+      },
+      {
+        "name": "gray_153",
+        "rgb": [
+          153,
+          153,
+          153
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.796875,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          1424,
+          31,
+          1636,
+          228
+        ]
+      },
+      {
+        "name": "gray_179",
+        "rgb": [
+          179,
+          179,
+          179
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.915625,
+          0.11990740740740741
+        ],
+        "bounds_px": [
+          1652,
+          31,
+          1864,
+          228
+        ]
+      },
+      {
+        "name": "gray_204",
+        "rgb": [
+          204,
+          204,
+          204
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.084375,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          56,
+          237,
+          268,
+          433
+        ]
+      },
+      {
+        "name": "gray_230",
+        "rgb": [
+          230,
+          230,
+          230
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.203125,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          284,
+          237,
+          496,
+          433
+        ]
+      },
+      {
+        "name": "gray_255",
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "kind": "neutral",
+        "sample_xy_normalized": [
+          0.321875,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          512,
+          237,
+          724,
+          433
+        ]
+      },
+      {
+        "name": "rgb_000_000_128",
+        "rgb": [
+          0,
+          0,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.440625,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          740,
+          237,
+          952,
+          433
+        ]
+      },
+      {
+        "name": "rgb_000_000_255",
+        "rgb": [
+          0,
+          0,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.559375,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          968,
+          237,
+          1180,
+          433
+        ]
+      },
+      {
+        "name": "rgb_000_128_000",
+        "rgb": [
+          0,
+          128,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.678125,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          1196,
+          237,
+          1408,
+          433
+        ]
+      },
+      {
+        "name": "rgb_000_128_128",
+        "rgb": [
+          0,
+          128,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.796875,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          1424,
+          237,
+          1636,
+          433
+        ]
+      },
+      {
+        "name": "rgb_000_128_255",
+        "rgb": [
+          0,
+          128,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.915625,
+          0.3101851851851852
+        ],
+        "bounds_px": [
+          1652,
+          237,
+          1864,
+          433
+        ]
+      },
+      {
+        "name": "rgb_000_255_000",
+        "rgb": [
+          0,
+          255,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.084375,
+          0.5
+        ],
+        "bounds_px": [
+          56,
+          442,
+          268,
+          638
+        ]
+      },
+      {
+        "name": "rgb_000_255_128",
+        "rgb": [
+          0,
+          255,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.203125,
+          0.5
+        ],
+        "bounds_px": [
+          284,
+          442,
+          496,
+          638
+        ]
+      },
+      {
+        "name": "rgb_000_255_255",
+        "rgb": [
+          0,
+          255,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.321875,
+          0.5
+        ],
+        "bounds_px": [
+          512,
+          442,
+          724,
+          638
+        ]
+      },
+      {
+        "name": "rgb_128_000_000",
+        "rgb": [
+          128,
+          0,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.440625,
+          0.5
+        ],
+        "bounds_px": [
+          740,
+          442,
+          952,
+          638
+        ]
+      },
+      {
+        "name": "rgb_128_000_128",
+        "rgb": [
+          128,
+          0,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.559375,
+          0.5
+        ],
+        "bounds_px": [
+          968,
+          442,
+          1180,
+          638
+        ]
+      },
+      {
+        "name": "rgb_128_000_255",
+        "rgb": [
+          128,
+          0,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.678125,
+          0.5
+        ],
+        "bounds_px": [
+          1196,
+          442,
+          1408,
+          638
+        ]
+      },
+      {
+        "name": "rgb_128_128_000",
+        "rgb": [
+          128,
+          128,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.796875,
+          0.5
+        ],
+        "bounds_px": [
+          1424,
+          442,
+          1636,
+          638
+        ]
+      },
+      {
+        "name": "rgb_128_128_255",
+        "rgb": [
+          128,
+          128,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.915625,
+          0.5
+        ],
+        "bounds_px": [
+          1652,
+          442,
+          1864,
+          638
+        ]
+      },
+      {
+        "name": "rgb_128_255_000",
+        "rgb": [
+          128,
+          255,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.084375,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          56,
+          647,
+          268,
+          843
+        ]
+      },
+      {
+        "name": "rgb_128_255_128",
+        "rgb": [
+          128,
+          255,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.203125,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          284,
+          647,
+          496,
+          843
+        ]
+      },
+      {
+        "name": "rgb_128_255_255",
+        "rgb": [
+          128,
+          255,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.321875,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          512,
+          647,
+          724,
+          843
+        ]
+      },
+      {
+        "name": "rgb_255_000_000",
+        "rgb": [
+          255,
+          0,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.440625,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          740,
+          647,
+          952,
+          843
+        ]
+      },
+      {
+        "name": "rgb_255_000_128",
+        "rgb": [
+          255,
+          0,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.559375,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          968,
+          647,
+          1180,
+          843
+        ]
+      },
+      {
+        "name": "rgb_255_000_255",
+        "rgb": [
+          255,
+          0,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.678125,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          1196,
+          647,
+          1408,
+          843
+        ]
+      },
+      {
+        "name": "rgb_255_128_000",
+        "rgb": [
+          255,
+          128,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.796875,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          1424,
+          647,
+          1636,
+          843
+        ]
+      },
+      {
+        "name": "rgb_255_128_128",
+        "rgb": [
+          255,
+          128,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.915625,
+          0.6898148148148148
+        ],
+        "bounds_px": [
+          1652,
+          647,
+          1864,
+          843
+        ]
+      },
+      {
+        "name": "rgb_255_128_255",
+        "rgb": [
+          255,
+          128,
+          255
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.084375,
+          0.8800925925925925
+        ],
+        "bounds_px": [
+          56,
+          852,
+          268,
+          1049
+        ]
+      },
+      {
+        "name": "rgb_255_255_000",
+        "rgb": [
+          255,
+          255,
+          0
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.203125,
+          0.8800925925925925
+        ],
+        "bounds_px": [
+          284,
+          852,
+          496,
+          1049
+        ]
+      },
+      {
+        "name": "rgb_255_255_128",
+        "rgb": [
+          255,
+          255,
+          128
+        ],
+        "kind": "color",
+        "sample_xy_normalized": [
+          0.321875,
+          0.8800925925925925
+        ],
+        "bounds_px": [
+          512,
+          852,
+          724,
+          1049
+        ]
+      },
+      {
+        "name": "black_white_edge",
+        "rgb": null,
+        "kind": "edge",
+        "sample_xy_normalized": [
+          0.440625,
+          0.8800925925925925
+        ],
+        "bounds_px": [
+          740,
+          852,
+          952,
+          1049
+        ]
+      },
+      {
+        "name": "fine_vertical_lines",
+        "rgb": null,
+        "kind": "lines",
+        "sample_xy_normalized": [
+          0.559375,
+          0.8800925925925925
+        ],
+        "bounds_px": [
+          968,
+          852,
+          1180,
+          1049
+        ]
+      }
+    ],
+    "edge_patch": {
+      "name": "black_white_edge",
+      "rgb": null,
+      "kind": "edge",
+      "sample_xy_normalized": [
+        0.440625,
+        0.8800925925925925
+      ],
+      "bounds_px": [
+        740,
+        852,
+        952,
+        1049
+      ]
+    }
+  },
+  "patch_measurements": [
+    {
+      "name": "gray_000",
+      "kind": "neutral",
+      "expected_rgb": [
+        0,
+        0,
+        0
+      ],
+      "measured_before_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "predicted_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "error_before_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_025",
+      "kind": "neutral",
+      "expected_rgb": [
+        25,
+        25,
+        25
+      ],
+      "measured_before_rgb": [
+        23.0,
+        23.0,
+        23.0
+      ],
+      "predicted_after_rgb": [
+        25.0,
+        25.0,
+        25.0
+      ],
+      "error_before_rgb": [
+        -2.0,
+        -2.0,
+        -2.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_051",
+      "kind": "neutral",
+      "expected_rgb": [
+        51,
+        51,
+        51
+      ],
+      "measured_before_rgb": [
+        48.0,
+        48.0,
+        48.0
+      ],
+      "predicted_after_rgb": [
+        51.0,
+        51.0,
+        51.0
+      ],
+      "error_before_rgb": [
+        -3.0,
+        -3.0,
+        -3.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_076",
+      "kind": "neutral",
+      "expected_rgb": [
+        76,
+        76,
+        76
+      ],
+      "measured_before_rgb": [
+        74.0,
+        74.0,
+        74.0
+      ],
+      "predicted_after_rgb": [
+        76.0,
+        76.0,
+        76.0
+      ],
+      "error_before_rgb": [
+        -2.0,
+        -2.0,
+        -2.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_102",
+      "kind": "neutral",
+      "expected_rgb": [
+        102,
+        102,
+        102
+      ],
+      "measured_before_rgb": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "predicted_after_rgb": [
+        102.0,
+        102.0,
+        102.0
+      ],
+      "error_before_rgb": [
+        -2.0,
+        -2.0,
+        -2.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_128",
+      "kind": "neutral",
+      "expected_rgb": [
+        128,
+        128,
+        128
+      ],
+      "measured_before_rgb": [
+        125.0,
+        125.0,
+        125.0
+      ],
+      "predicted_after_rgb": [
+        128.0,
+        128.0,
+        128.0
+      ],
+      "error_before_rgb": [
+        -3.0,
+        -3.0,
+        -3.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_153",
+      "kind": "neutral",
+      "expected_rgb": [
+        153,
+        153,
+        153
+      ],
+      "measured_before_rgb": [
+        151.0,
+        151.0,
+        151.0
+      ],
+      "predicted_after_rgb": [
+        153.0,
+        153.0,
+        153.0
+      ],
+      "error_before_rgb": [
+        -2.0,
+        -2.0,
+        -2.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_179",
+      "kind": "neutral",
+      "expected_rgb": [
+        179,
+        179,
+        179
+      ],
+      "measured_before_rgb": [
+        176.0,
+        176.0,
+        176.0
+      ],
+      "predicted_after_rgb": [
+        179.0,
+        179.0,
+        179.0
+      ],
+      "error_before_rgb": [
+        -3.0,
+        -3.0,
+        -3.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_204",
+      "kind": "neutral",
+      "expected_rgb": [
+        204,
+        204,
+        204
+      ],
+      "measured_before_rgb": [
+        201.0,
+        201.0,
+        201.0
+      ],
+      "predicted_after_rgb": [
+        204.0,
+        204.0,
+        204.0
+      ],
+      "error_before_rgb": [
+        -3.0,
+        -3.0,
+        -3.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_230",
+      "kind": "neutral",
+      "expected_rgb": [
+        230,
+        230,
+        230
+      ],
+      "measured_before_rgb": [
+        226.0,
+        226.0,
+        226.0
+      ],
+      "predicted_after_rgb": [
+        230.0,
+        230.0,
+        230.0
+      ],
+      "error_before_rgb": [
+        -4.0,
+        -4.0,
+        -4.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "gray_255",
+      "kind": "neutral",
+      "expected_rgb": [
+        255,
+        255,
+        255
+      ],
+      "measured_before_rgb": [
+        252.0,
+        252.0,
+        252.0
+      ],
+      "predicted_after_rgb": [
+        255.0,
+        255.0,
+        255.0
+      ],
+      "error_before_rgb": [
+        -3.0,
+        -3.0,
+        -3.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_000_000_128",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        0,
+        128
+      ],
+      "measured_before_rgb": [
+        0.0,
+        0.0,
+        119.0
+      ],
+      "predicted_after_rgb": [
+        1.0,
+        0.0,
+        130.0
+      ],
+      "error_before_rgb": [
+        0.0,
+        0.0,
+        -9.0
+      ],
+      "error_after_rgb": [
+        1.0,
+        0.0,
+        2.0
+      ]
+    },
+    {
+      "name": "rgb_000_000_255",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        0,
+        255
+      ],
+      "measured_before_rgb": [
+        0.0,
+        0.0,
+        238.0
+      ],
+      "predicted_after_rgb": [
+        0.0,
+        0.0,
+        255.0
+      ],
+      "error_before_rgb": [
+        0.0,
+        0.0,
+        -17.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_000_128_000",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        128,
+        0
+      ],
+      "measured_before_rgb": [
+        8.0,
+        148.0,
+        3.0
+      ],
+      "predicted_after_rgb": [
+        0.0,
+        141.0,
+        0.0
+      ],
+      "error_before_rgb": [
+        8.0,
+        20.0,
+        3.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        13.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_000_128_128",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        128,
+        128
+      ],
+      "measured_before_rgb": [
+        9.0,
+        139.0,
+        123.0
+      ],
+      "predicted_after_rgb": [
+        0.0,
+        136.0,
+        128.0
+      ],
+      "error_before_rgb": [
+        9.0,
+        11.0,
+        -5.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        8.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_000_128_255",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        128,
+        255
+      ],
+      "measured_before_rgb": [
+        10.0,
+        132.0,
+        243.0
+      ],
+      "predicted_after_rgb": [
+        0.0,
+        133.0,
+        255.0
+      ],
+      "error_before_rgb": [
+        10.0,
+        4.0,
+        -12.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        5.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_000_255_000",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        255,
+        0
+      ],
+      "measured_before_rgb": [
+        19.0,
+        255.0,
+        6.0
+      ],
+      "predicted_after_rgb": [
+        2.0,
+        246.0,
+        0.0
+      ],
+      "error_before_rgb": [
+        19.0,
+        0.0,
+        6.0
+      ],
+      "error_after_rgb": [
+        2.0,
+        -9.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_000_255_128",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        255,
+        128
+      ],
+      "measured_before_rgb": [
+        19.0,
+        255.0,
+        129.0
+      ],
+      "predicted_after_rgb": [
+        2.0,
+        250.0,
+        131.0
+      ],
+      "error_before_rgb": [
+        19.0,
+        0.0,
+        1.0
+      ],
+      "error_after_rgb": [
+        2.0,
+        -5.0,
+        3.0
+      ]
+    },
+    {
+      "name": "rgb_000_255_255",
+      "kind": "color",
+      "expected_rgb": [
+        0,
+        255,
+        255
+      ],
+      "measured_before_rgb": [
+        20.0,
+        255.0,
+        246.0
+      ],
+      "predicted_after_rgb": [
+        2.0,
+        254.0,
+        253.0
+      ],
+      "error_before_rgb": [
+        20.0,
+        0.0,
+        -9.0
+      ],
+      "error_after_rgb": [
+        2.0,
+        -1.0,
+        -2.0
+      ]
+    },
+    {
+      "name": "rgb_128_000_000",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        0,
+        0
+      ],
+      "measured_before_rgb": [
+        112.0,
+        0.0,
+        0.0
+      ],
+      "predicted_after_rgb": [
+        128.0,
+        0.0,
+        0.0
+      ],
+      "error_before_rgb": [
+        -16.0,
+        0.0,
+        0.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_128_000_128",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        0,
+        128
+      ],
+      "measured_before_rgb": [
+        113.0,
+        0.0,
+        119.0
+      ],
+      "predicted_after_rgb": [
+        128.0,
+        0.0,
+        128.0
+      ],
+      "error_before_rgb": [
+        -15.0,
+        0.0,
+        -9.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_128_000_255",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        0,
+        255
+      ],
+      "measured_before_rgb": [
+        113.0,
+        0.0,
+        239.0
+      ],
+      "predicted_after_rgb": [
+        126.0,
+        3.0,
+        254.0
+      ],
+      "error_before_rgb": [
+        -15.0,
+        0.0,
+        -16.0
+      ],
+      "error_after_rgb": [
+        -2.0,
+        3.0,
+        -1.0
+      ]
+    },
+    {
+      "name": "rgb_128_128_000",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        128,
+        0
+      ],
+      "measured_before_rgb": [
+        122.0,
+        134.0,
+        3.0
+      ],
+      "predicted_after_rgb": [
+        127.0,
+        132.0,
+        0.0
+      ],
+      "error_before_rgb": [
+        -6.0,
+        6.0,
+        3.0
+      ],
+      "error_after_rgb": [
+        -1.0,
+        4.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_128_128_255",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        128,
+        255
+      ],
+      "measured_before_rgb": [
+        126.0,
+        118.0,
+        244.0
+      ],
+      "predicted_after_rgb": [
+        129.0,
+        123.0,
+        251.0
+      ],
+      "error_before_rgb": [
+        -2.0,
+        -10.0,
+        -11.0
+      ],
+      "error_after_rgb": [
+        1.0,
+        -5.0,
+        -4.0
+      ]
+    },
+    {
+      "name": "rgb_128_255_000",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        255,
+        0
+      ],
+      "measured_before_rgb": [
+        134.0,
+        255.0,
+        8.0
+      ],
+      "predicted_after_rgb": [
+        129.0,
+        252.0,
+        0.0
+      ],
+      "error_before_rgb": [
+        6.0,
+        0.0,
+        8.0
+      ],
+      "error_after_rgb": [
+        1.0,
+        -3.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_128_255_128",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        255,
+        128
+      ],
+      "measured_before_rgb": [
+        136.0,
+        255.0,
+        130.0
+      ],
+      "predicted_after_rgb": [
+        134.0,
+        255.0,
+        131.0
+      ],
+      "error_before_rgb": [
+        8.0,
+        0.0,
+        2.0
+      ],
+      "error_after_rgb": [
+        6.0,
+        0.0,
+        3.0
+      ]
+    },
+    {
+      "name": "rgb_128_255_255",
+      "kind": "color",
+      "expected_rgb": [
+        128,
+        255,
+        255
+      ],
+      "measured_before_rgb": [
+        138.0,
+        255.0,
+        247.0
+      ],
+      "predicted_after_rgb": [
+        136.0,
+        255.0,
+        251.0
+      ],
+      "error_before_rgb": [
+        10.0,
+        0.0,
+        -8.0
+      ],
+      "error_after_rgb": [
+        8.0,
+        0.0,
+        -4.0
+      ]
+    },
+    {
+      "name": "rgb_255_000_000",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        0,
+        0
+      ],
+      "measured_before_rgb": [
+        228.0,
+        0.0,
+        2.0
+      ],
+      "predicted_after_rgb": [
+        255.0,
+        1.0,
+        1.0
+      ],
+      "error_before_rgb": [
+        -27.0,
+        0.0,
+        2.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "rgb_255_000_128",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        0,
+        128
+      ],
+      "measured_before_rgb": [
+        229.0,
+        0.0,
+        119.0
+      ],
+      "predicted_after_rgb": [
+        255.0,
+        4.0,
+        126.0
+      ],
+      "error_before_rgb": [
+        -26.0,
+        0.0,
+        -9.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        4.0,
+        -2.0
+      ]
+    },
+    {
+      "name": "rgb_255_000_255",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        0,
+        255
+      ],
+      "measured_before_rgb": [
+        230.0,
+        0.0,
+        243.0
+      ],
+      "predicted_after_rgb": [
+        255.0,
+        8.0,
+        255.0
+      ],
+      "error_before_rgb": [
+        -25.0,
+        0.0,
+        -12.0
+      ],
+      "error_after_rgb": [
+        0.0,
+        8.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_255_128_000",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        128,
+        0
+      ],
+      "measured_before_rgb": [
+        237.0,
+        123.0,
+        5.0
+      ],
+      "predicted_after_rgb": [
+        254.0,
+        127.0,
+        0.0
+      ],
+      "error_before_rgb": [
+        -18.0,
+        -5.0,
+        5.0
+      ],
+      "error_after_rgb": [
+        -1.0,
+        -1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "rgb_255_128_128",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        128,
+        128
+      ],
+      "measured_before_rgb": [
+        238.0,
+        113.0,
+        126.0
+      ],
+      "predicted_after_rgb": [
+        249.0,
+        118.0,
+        129.0
+      ],
+      "error_before_rgb": [
+        -17.0,
+        -15.0,
+        -2.0
+      ],
+      "error_after_rgb": [
+        -6.0,
+        -10.0,
+        1.0
+      ]
+    },
+    {
+      "name": "rgb_255_128_255",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        128,
+        255
+      ],
+      "measured_before_rgb": [
+        239.0,
+        105.0,
+        246.0
+      ],
+      "predicted_after_rgb": [
+        250.0,
+        112.0,
+        253.0
+      ],
+      "error_before_rgb": [
+        -16.0,
+        -23.0,
+        -9.0
+      ],
+      "error_after_rgb": [
+        -5.0,
+        -16.0,
+        -2.0
+      ]
+    },
+    {
+      "name": "rgb_255_255_000",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        255,
+        0
+      ],
+      "measured_before_rgb": [
+        247.0,
+        255.0,
+        10.0
+      ],
+      "predicted_after_rgb": [
+        253.0,
+        255.0,
+        1.0
+      ],
+      "error_before_rgb": [
+        -8.0,
+        0.0,
+        10.0
+      ],
+      "error_after_rgb": [
+        -2.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "rgb_255_255_128",
+      "kind": "color",
+      "expected_rgb": [
+        255,
+        255,
+        128
+      ],
+      "measured_before_rgb": [
+        249.0,
+        255.0,
+        132.0
+      ],
+      "predicted_after_rgb": [
+        253.0,
+        255.0,
+        132.0
+      ],
+      "error_before_rgb": [
+        -6.0,
+        0.0,
+        4.0
+      ],
+      "error_after_rgb": [
+        -2.0,
+        0.0,
+        4.0
+      ]
+    }
+  ],
+  "edge_response_before": {
+    "esf_10_90_width_px": 2.385,
+    "overshoot_white_pct": 0.0,
+    "undershoot_black_pct": 0.0,
+    "black_luma": 0.0,
+    "white_luma": 252.0
+  },
+  "edge_response_after_lut_prediction": {
+    "esf_10_90_width_px": 2.404,
+    "overshoot_white_pct": 0.0,
+    "undershoot_black_pct": 0.0,
+    "black_luma": 0.0,
+    "white_luma": 255.0
+  },
+  "color_patch_rmse_before": 9.11,
+  "color_patch_rmse_after_lut_prediction": 3.292,
+  "tone_curve_input_levels_by_channel": [
+    [
+      0.0,
+      23.0,
+      48.0,
+      74.0,
+      100.0,
+      125.0,
+      151.0,
+      176.0,
+      201.0,
+      226.0,
+      252.0
+    ],
+    [
+      0.0,
+      23.0,
+      48.0,
+      74.0,
+      100.0,
+      125.0,
+      151.0,
+      176.0,
+      201.0,
+      226.0,
+      252.0
+    ],
+    [
+      0.0,
+      23.0,
+      48.0,
+      74.0,
+      100.0,
+      125.0,
+      151.0,
+      176.0,
+      201.0,
+      226.0,
+      252.0
+    ]
+  ],
+  "tone_curve_output_levels_by_channel": [
+    [
+      0.0,
+      25.0,
+      51.0,
+      76.0,
+      102.0,
+      128.0,
+      153.0,
+      179.0,
+      204.0,
+      230.0,
+      255.0
+    ],
+    [
+      0.0,
+      25.0,
+      51.0,
+      76.0,
+      102.0,
+      128.0,
+      153.0,
+      179.0,
+      204.0,
+      230.0,
+      255.0
+    ],
+    [
+      0.0,
+      25.0,
+      51.0,
+      76.0,
+      102.0,
+      128.0,
+      153.0,
+      179.0,
+      204.0,
+      230.0,
+      255.0
+    ]
+  ],
+  "chroma_matrix": [
+    [
+      1.094240919194842,
+      -0.09206480059410518,
+      -0.01391197748817531
+    ],
+    [
+      0.0467885130725573,
+      1.0010097239425253,
+      0.031828834034189755
+    ],
+    [
+      -0.01602300402212937,
+      -0.03656842817040318,
+      1.0477685148362348
+    ]
+  ],
+  "chroma_bias": [
+    2.922549143249309,
+    -10.410652567974322,
+    1.984872725399896
+  ],
+  "lut_strength": 1.0,
+  "lut_size": 33,
+  "artifacts": {
+    "source_chart": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\tmp\\calibration_source.ppm",
+    "capture_before_lut": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\tmp\\capture_before_lut.ppm",
+    "capture_after_lut_preview": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\tmp\\capture_after_lut_preview.ppm",
+    "comparison": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\tmp\\capture_before_after_comparison.ppm",
+    "lut": "C:\\Users\\WANGZ\\Documents\\GitHub\\ms2131_patcher\\tmp\\ms2131_color_correction.cube"
+  },
+  "limitations": "After-LUT values are a software prediction from the captured frame, not a second physical capture. A pointwise LUT cannot restore spatial detail lost in the capture chain. The result depends on the selected display, GPU output mode, capture format/range, and Windows color pipeline."
+}
