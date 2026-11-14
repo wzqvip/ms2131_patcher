@@ -48,6 +48,19 @@ KNOWN_SIGNATURES = [
     },
     {
         "family": "MS2131",
+        "sample": "Sipeed NanoKVM-USB 30125D build (2024-12-25; filename-labeled MS2131)",
+        "code_length": 0xF58E,
+        "header_checksum": 0x261F,
+        "code_checksum": 0xB565,
+        "patterns": [
+            (0x00, "3C C3 F5 8E FF FF FF FF C0 00 00 00 ?? ?? ?? ??"),
+            (0x4E, "44 65 63 20 32 35 20 32 30 32 34"),  # "Dec 25 2024"
+            (0xB9, "48 44 20 54 4F 20 55 53 42"),        # "HD TO USB"
+            (0xC3B6, "90 F6 B4 74 7A F0"),               # direct write F6B4 <- 7A
+        ],
+    },
+    {
+        "family": "MS2131",
         "sample": "ZMT02 stock firmware",
         "code_length": 0xFBA0,
         "header_checksum": 0x25F7,

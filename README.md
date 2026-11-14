@@ -77,6 +77,8 @@ py generate_color_lut.py
 
 “LUT 后”图像和误差是对同一采集帧应用 LUT 的软件预测，不是二次硬件采集。LUT 只能校正色调与颜色，不能恢复采集链路已经丢失的空间细节；斜边指标会单独显示这类锐度变化。想得到最接近 HDMI 源图的结果，应先用原版固件和固定的显示/采集设置建立基线，再只修正实测到的误差。
 
+`tmp/calibration_data_.json`（2K 显示器接着、桌面设为 1080p）与 `tmp/calibration_data.json`（未接显示器）的测量拟合出了不同的 LUT 参数：灰阶曲线中间输入点分别为 129 和 125，色彩矩阵最大系数差约 0.053。因此两种条件得到的校正结果不能视为同一份 LUT。两次记录都指向 `tmp/ms2131_color_correction.cube`；脚本每次运行都会覆盖这个文件，所以目前目录中的 `.cube` 只代表最后一次运行。需要保留两种条件的 LUT 时，应在每次运行后分别复制并改名，同时保留对应 JSON 和采集图。旧 JSON 没有记录 Active signal mode，且两种条件还可能伴随 GPU 输出/缩放变化，不能仅凭这两次结果断定差异完全由显示器是否连接造成。
+
 ### MS2131 固件补丁脚本
 
 根目录的 `ms2131_patch.c` 和 `patch_ms2131.py` 是本项目自己的 MS2131 补丁器，与 `MS2130_` 下 fork 的 MS2130 源码分开。它们针对当前已验证的 512 KiB SPI 备份，只改文件偏移 `0xB3AA`（`0x7A → 0x00`），重算代码校验和，并输出到独立文件；不会写入采集卡。
@@ -102,11 +104,14 @@ gcc -O2 -Wall -Wextra -o ms2131_patch.exe ms2131_patch.c
 
 `identify_ms21xx.py` 使用固件头、加法校验和，以及 `0xB3AA`、MS2130 补丁点等特定文件偏移的字节特征识别仓库中的样本；模式支持 `??` 单字节通配符。未知文件只会依据有效固件头、代码长度和校验和给出“疑似”布局判断。它只读取固件文件，不访问 USB 设备，也不会刷写。
 
+现已加入 Sipeed NanoKVM-USB `30125D` 固件的独立签名。该镜像有有效的 `3CC3` 容器和校验和，代码长度为 `0xF58E`，内嵌日期为 `Dec 25 2024`；与仓库中的 086/ZMT02 固件构建参数不同，因此之前会被报告为 unknown。它包含 `F6B4 <- 0x7A` 写入，与已知 MS2131 stock 样本一致；`0xB3AA` 是 `0x2E`，不要把它按 ZMT02 固件的 `0x7A` 补丁点解释。签名匹配识别的是这个固件构建样本，不能单独证明某块实体板上的芯片型号。
+
 ```powershell
 py identify_ms21xx.py .\binary\ZMT02_MS2131_VER1.0_25082718_2541_SPI5E3213_ZB25WD40_stock.bin
 py identify_ms21xx.py .\binary\MS2131_086-1_2403_stock_255255255255.bin --json
 py identify_ms21xx.py .\binary\goodZB25WD40@SOIC8.BIN
 py identify_ms21xx.py .\binary\crapZB25WD40@SOIC8.BIN
+py identify_ms21xx.py .\SIPEED_NanoKVM-USB_30125D_MS2131.bin
 py identify_ms21xx.py .\MS2130_\4k2.bin
 ```
 
@@ -195,6 +200,8 @@ Requirements: Windows, numpy, Tkinter, and FFmpeg built with DirectShow support.
 
 Post-LUT images and errors are software predictions from the same captured frame, not a second hardware capture. A LUT can correct tone and color, but cannot restore spatial detail lost in the capture path; the script reports edge-response metrics separately. For the closest match to the HDMI source, first establish a baseline using stock firmware and fixed display/capture settings, then correct only measured errors.
 
+The measurements in `tmp/calibration_data_.json` (2K monitor connected, desktop set to 1080p) and `tmp/calibration_data.json` (monitor disconnected) produce different fitted LUT parameters: their middle grayscale input knots are 129 and 125, and the largest color-matrix coefficient difference is about 0.053. Treat the resulting corrections as separate calibrations. Both reports point to `tmp/ms2131_color_correction.cube`; each run overwrites that path, so only the most recently generated `.cube` remains. To keep both results, copy and rename the LUT after each run and retain its matching JSON and capture images. The older JSON reports lack Active signal mode, and GPU output/scaling may also have differed, so these measurements alone cannot establish that monitor connection caused the entire difference.
+
 ### MS2131 firmware patch scripts
 
 The root-level `ms2131_patch.c` and `patch_ms2131.py` are this project's MS2131 patchers, kept separate from the forked MS2130 sources under `MS2130_`. They target only the verified 512 KiB SPI backup. The scripts change file offset `0xB3AA` (`0x7A → 0x00`), recalculate the code checksum, and write a separate output file; they do not flash the capture card.
@@ -220,11 +227,14 @@ These scripts are specific to this exact firmware version; they are not general 
 
 `identify_ms21xx.py` identifies repository samples using firmware headers, additive checksums, and byte signatures at specific file offsets such as `0xB3AA` and the MS2130 patch sites. Patterns support `??` as a one-byte wildcard. Unknown files are only reported as a *likely* layout when their header, code length, and checksums fit. The script only reads firmware files; it does not access a USB device or flash firmware.
 
+A dedicated byte signature now covers the Sipeed NanoKVM-USB `30125D` image. It has a valid `3CC3` container/checksums, code length `0xF58E`, and embedded build date `Dec 25 2024`; its build metadata differs from the repository's 086/ZMT02 images, which is why the earlier identifier returned unknown. It contains the same `F6B4 <- 0x7A` direct write found in known MS2131 stock samples. Its byte at `0xB3AA` is `0x2E`, so do not interpret that offset using the ZMT02 `0x7A` patch rule. A signature match identifies this firmware build sample; it does not independently prove the chip fitted to a physical board.
+
 ```powershell
 py identify_ms21xx.py .\binary\ZMT02_MS2131_VER1.0_25082718_2541_SPI5E3213_ZB25WD40_stock.bin
 py identify_ms21xx.py .\binary\MS2131_086-1_2403_stock_255255255255.bin --json
 py identify_ms21xx.py .\binary\goodZB25WD40@SOIC8.BIN
 py identify_ms21xx.py .\binary\crapZB25WD40@SOIC8.BIN
+py identify_ms21xx.py .\SIPEED_NanoKVM-USB_30125D_MS2131.bin
 py identify_ms21xx.py .\MS2130_\4k2.bin
 ```
 
