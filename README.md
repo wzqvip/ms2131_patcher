@@ -6,7 +6,7 @@
 
 板卡正面照片（左侧为 HDMI 输入，右侧为 HDMI 环出）：
 
-![MS2131 板卡正面](../pics/front.png)
+![MS2131 板卡正面](./pics/front.png)
 
 ### 当前固件实验
 
@@ -26,7 +26,7 @@
 
 下图左侧对比斜边响应，曲线越宽表示边缘过渡越缓；右侧显示夜间模式关闭后的灰阶 RGB 响应。
 
-![MS2131 锐度与灰阶对比](../pics/ms2131_sharpness_color_comparison.png)
+![MS2131 锐度与灰阶对比](./pics/ms2131_sharpness_color_comparison.png)
 
 - 输入：1920×1080、YUY2、60 fps；斜边图在 1920×1080 下全屏显示。
 - 亮度：按 `Y = 0.299R + 0.587G + 0.114B` 计算，并对斜边 ROI 内 710 行取平均。
@@ -80,7 +80,7 @@ This directory documents firmware and image-measurement work on an MS2131 captur
 
 Board front photo (HDMI input on the left, HDMI loop-out on the right):
 
-![MS2131 board front](../pics/front.png)
+![MS2131 board front](./pics/front.png)
 
 ### Current firmware experiment
 
@@ -100,7 +100,7 @@ The latest measurements, taken with Windows Night Light disabled, are in `../pic
 
 The figure below compares the slanted-edge response on the left; a wider curve indicates a softer edge transition. The right panel shows grayscale RGB response with Night Light disabled.
 
-![MS2131 sharpness and grayscale comparison](../pics/ms2131_sharpness_color_comparison.png)
+![MS2131 sharpness and grayscale comparison](./pics/ms2131_sharpness_color_comparison.png)
 
 - Capture mode: 1920×1080, YUY2, 60 fps; the edge chart was shown full-screen at 1920×1080.
 - Luma: `Y = 0.299R + 0.587G + 0.114B`, averaged over 710 rows in the edge ROI.
